@@ -1,5 +1,3 @@
-# models/lstm_model.py
-
 import tensorflow as tf
 from tensorflow.keras.layers import Input, LSTM, Dense
 from tensorflow.keras.models import Model

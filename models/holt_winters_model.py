@@ -4,7 +4,7 @@ from statsmodels.tsa.holtwinters import ExponentialSmoothing
 import numpy as np
 
 class HoltWintersModel:
-    def __init__(self, seasonal='add', seasonal_periods=12, trend='add'):
+    def __init__(self, seasonal='mul', seasonal_periods=5, trend='add'):
         """
         Initialize the Holt-Winters model.
         
